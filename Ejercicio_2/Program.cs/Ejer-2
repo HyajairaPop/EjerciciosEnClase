@@ -1,0 +1,14 @@
+Console.WriteLine("Hola, este es un programa de numero par o impar");
+
+Console.WriteLine("Ingresa un número: ");
+int numero = int.Parse(Console.ReadLine()); 
+
+if (numero % 2 == 0)
+{
+    Console.WriteLine("El número ingresado es PAR.");
+}
+else
+{
+    Console.WriteLine("El número ingresado es IMPAR.");
+}
+
